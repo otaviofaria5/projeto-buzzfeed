@@ -1,34 +1,36 @@
 {
-    "title":"Você seria um heroi ou vilão ?",
+    "title":"Você seria uma pessoa amada ou pessoa odiada ?",
     "questions":[
-      {
+      { 
         "id":1,
-        "question": "Qual super poder você escolheria ?",
-        "options":[
-          {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-          {"id": 2, "name":"Voar", "alias":"B"},
-          {"id": 3, "name":"Explodir coisas", "alias":"A"},
-          {"id": 4, "name":"Curar feridas", "alias":"B"},
-          {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
-        ]
+      "question": "Quem você ama mais ?",
+      "options":[
+        {"id": 1, "name":"Mãe", "alias":"A"},
+        {"id": 2, "name":"Pai", "alias":"A"},
+        {"id": 3, "name":"Avó", "alias":"B"},
+        {"id": 3, "name":"Irmão", "alias":"B"}
+      ]
+
       },
-      {
+     {
         "id":2,
-        "question": "Quem você salvaria primeiro ?",
+        "question": "Qual animal voce escolheria",
         "options":[
-          {"id": 1, "name":"Crianças", "alias":"A"},
-          {"id": 2, "name":"Idosos", "alias":"A"},
-          {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+          {"id": 1, "name":"Cachorro", "alias":"A"},
+          {"id": 2, "name":"Gato", "alias":"B"},
+          {"id": 3, "name":"Coelho", "alias":"A"},
+          {"id": 4, "name":"Cavalo", "alias":"B"},
+          {"id": 5, "name":"Papagaios", "alias":"A"}
         ]
       },
       {
         "id":3,
-        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+        "question": "Qual a sua maior preocupação com o futuro?",
         "options":[
-          {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-          {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-          {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+          {"id": 1, "name":"Faculdade", "alias":"B"},
+          {"id": 2, "name":"Trabalho", "alias":"A"},
+          {"id": 3, "name":"Estudar", "alias":"A"},
+          {"id": 4, "name":"Viajar", "alias":"B"}
         ]
       },
       {
@@ -49,7 +51,7 @@
       }
     ],
     "results":{
-      "A": "Você muito provavelmente seria um super vilão!",
-      "B": "Você muito provavelmente seria um super Herói!"
+      "A": "Você muito provavelmente seria uma pessoa amada",
+      "B": "Você muito provavelmente seria uma pessoa odiada"
     }
 }
